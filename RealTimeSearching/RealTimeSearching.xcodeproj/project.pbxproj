@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11D6E93E7D3EAE1927E6887F /* Pods_RealTimeSearchingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAE269D15678F91B88F10C6D /* Pods_RealTimeSearchingTests.framework */; };
 		6D9E0F711E64231400064CCA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D9E0F701E64231400064CCA /* main.m */; };
 		6D9E0F741E64231400064CCA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D9E0F731E64231400064CCA /* AppDelegate.m */; };
 		6D9E0F771E64231400064CCA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D9E0F761E64231400064CCA /* ViewController.m */; };
@@ -14,6 +15,7 @@
 		6D9E0F7C1E64231400064CCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D9E0F7B1E64231400064CCA /* Assets.xcassets */; };
 		6D9E0F7F1E64231400064CCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D9E0F7D1E64231400064CCA /* LaunchScreen.storyboard */; };
 		6D9E0F8A1E64231400064CCA /* RealTimeSearchingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D9E0F891E64231400064CCA /* RealTimeSearchingTests.m */; };
+		DE1E6FDFC1F0E3BF3EF48C27 /* Pods_RealTimeSearching.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6B64AC24D4FC4F11DC2B9D0 /* Pods_RealTimeSearching.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6B4506439022B9553F123F68 /* Pods-RealTimeSearching.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealTimeSearching.release.xcconfig"; path = "Pods/Target Support Files/Pods-RealTimeSearching/Pods-RealTimeSearching.release.xcconfig"; sourceTree = "<group>"; };
 		6D9E0F6C1E64231400064CCA /* RealTimeSearching.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealTimeSearching.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D9E0F701E64231400064CCA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6D9E0F721E64231400064CCA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -40,6 +43,11 @@
 		6D9E0F851E64231400064CCA /* RealTimeSearchingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealTimeSearchingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D9E0F891E64231400064CCA /* RealTimeSearchingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RealTimeSearchingTests.m; sourceTree = "<group>"; };
 		6D9E0F8B1E64231400064CCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAE269D15678F91B88F10C6D /* Pods_RealTimeSearchingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealTimeSearchingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFA88E295E764C229C488F75 /* Pods-RealTimeSearching.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealTimeSearching.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RealTimeSearching/Pods-RealTimeSearching.debug.xcconfig"; sourceTree = "<group>"; };
+		E317D110EF3D9C2C086BBA7D /* Pods-RealTimeSearchingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealTimeSearchingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RealTimeSearchingTests/Pods-RealTimeSearchingTests.release.xcconfig"; sourceTree = "<group>"; };
+		F299E2A001F5B42F0E9B2413 /* Pods-RealTimeSearchingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealTimeSearchingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RealTimeSearchingTests/Pods-RealTimeSearchingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F6B64AC24D4FC4F11DC2B9D0 /* Pods_RealTimeSearching.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealTimeSearching.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE1E6FDFC1F0E3BF3EF48C27 /* Pods_RealTimeSearching.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11D6E93E7D3EAE1927E6887F /* Pods_RealTimeSearchingTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +76,8 @@
 				6D9E0F6E1E64231400064CCA /* RealTimeSearching */,
 				6D9E0F881E64231400064CCA /* RealTimeSearchingTests */,
 				6D9E0F6D1E64231400064CCA /* Products */,
+				C9CEE8E1A0419B45A0D909BD /* Pods */,
+				7FA0AD6500682002BB026306 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,6 +123,26 @@
 			path = RealTimeSearchingTests;
 			sourceTree = "<group>";
 		};
+		7FA0AD6500682002BB026306 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6B64AC24D4FC4F11DC2B9D0 /* Pods_RealTimeSearching.framework */,
+				AAE269D15678F91B88F10C6D /* Pods_RealTimeSearchingTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9CEE8E1A0419B45A0D909BD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DFA88E295E764C229C488F75 /* Pods-RealTimeSearching.debug.xcconfig */,
+				6B4506439022B9553F123F68 /* Pods-RealTimeSearching.release.xcconfig */,
+				F299E2A001F5B42F0E9B2413 /* Pods-RealTimeSearchingTests.debug.xcconfig */,
+				E317D110EF3D9C2C086BBA7D /* Pods-RealTimeSearchingTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -118,9 +150,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6D9E0F8E1E64231400064CCA /* Build configuration list for PBXNativeTarget "RealTimeSearching" */;
 			buildPhases = (
+				F1532B70A035C9DFD978DD06 /* [CP] Check Pods Manifest.lock */,
 				6D9E0F681E64231400064CCA /* Sources */,
 				6D9E0F691E64231400064CCA /* Frameworks */,
 				6D9E0F6A1E64231400064CCA /* Resources */,
+				C350AC8657AB9DA565315994 /* [CP] Embed Pods Frameworks */,
+				FFDC87C5983715EF1FF5E1CB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -135,9 +170,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6D9E0F911E64231400064CCA /* Build configuration list for PBXNativeTarget "RealTimeSearchingTests" */;
 			buildPhases = (
+				A729B52290D2F2CB98BDAB76 /* [CP] Check Pods Manifest.lock */,
 				6D9E0F811E64231400064CCA /* Sources */,
 				6D9E0F821E64231400064CCA /* Frameworks */,
 				6D9E0F831E64231400064CCA /* Resources */,
+				851B0E7BB148077077324044 /* [CP] Embed Pods Frameworks */,
+				75F1A40A0DBECBA2035F6B49 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -208,6 +246,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		75F1A40A0DBECBA2035F6B49 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RealTimeSearchingTests/Pods-RealTimeSearchingTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		851B0E7BB148077077324044 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RealTimeSearchingTests/Pods-RealTimeSearchingTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A729B52290D2F2CB98BDAB76 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C350AC8657AB9DA565315994 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RealTimeSearching/Pods-RealTimeSearching-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1532B70A035C9DFD978DD06 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FFDC87C5983715EF1FF5E1CB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RealTimeSearching/Pods-RealTimeSearching-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6D9E0F681E64231400064CCA /* Sources */ = {
@@ -348,6 +479,7 @@
 		};
 		6D9E0F8F1E64231400064CCA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFA88E295E764C229C488F75 /* Pods-RealTimeSearching.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = A87J69XM38;
@@ -360,6 +492,7 @@
 		};
 		6D9E0F901E64231400064CCA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B4506439022B9553F123F68 /* Pods-RealTimeSearching.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = A87J69XM38;
@@ -372,6 +505,7 @@
 		};
 		6D9E0F921E64231400064CCA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F299E2A001F5B42F0E9B2413 /* Pods-RealTimeSearchingTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = RealTimeSearchingTests/Info.plist;
@@ -384,6 +518,7 @@
 		};
 		6D9E0F931E64231400064CCA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E317D110EF3D9C2C086BBA7D /* Pods-RealTimeSearchingTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = RealTimeSearchingTests/Info.plist;

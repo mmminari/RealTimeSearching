@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		11D6E93E7D3EAE1927E6887F /* Pods_RealTimeSearchingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAE269D15678F91B88F10C6D /* Pods_RealTimeSearchingTests.framework */; };
+		6D54E3451E65092500552EEE /* UserInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D54E3431E65092500552EEE /* UserInfoCell.m */; };
+		6D54E3461E65092500552EEE /* UserInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D54E3441E65092500552EEE /* UserInfoCell.xib */; };
+		6D54E3491E650D4000552EEE /* HTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D54E3481E650D4000552EEE /* HTTPClient.m */; };
+		6D54E3581E6558C100552EEE /* ArtWorkThumb.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D54E34C1E6558C100552EEE /* ArtWorkThumb.m */; };
+		6D54E3591E6558C100552EEE /* Data.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D54E34E1E6558C100552EEE /* Data.m */; };
+		6D54E35A1E6558C100552EEE /* DataList.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D54E3501E6558C100552EEE /* DataList.m */; };
+		6D54E35B1E6558C100552EEE /* ResponseUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D54E3531E6558C100552EEE /* ResponseUser.m */; };
+		6D54E35C1E6558C100552EEE /* UserCountSummary.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D54E3551E6558C100552EEE /* UserCountSummary.m */; };
+		6D54E35D1E6558C100552EEE /* UserSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D54E3571E6558C100552EEE /* UserSearch.m */; };
 		6D9E0F711E64231400064CCA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D9E0F701E64231400064CCA /* main.m */; };
 		6D9E0F741E64231400064CCA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D9E0F731E64231400064CCA /* AppDelegate.m */; };
 		6D9E0F771E64231400064CCA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D9E0F761E64231400064CCA /* ViewController.m */; };
@@ -30,6 +39,24 @@
 
 /* Begin PBXFileReference section */
 		6B4506439022B9553F123F68 /* Pods-RealTimeSearching.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealTimeSearching.release.xcconfig"; path = "Pods/Target Support Files/Pods-RealTimeSearching/Pods-RealTimeSearching.release.xcconfig"; sourceTree = "<group>"; };
+		6D54E3421E65092500552EEE /* UserInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoCell.h; sourceTree = "<group>"; };
+		6D54E3431E65092500552EEE /* UserInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoCell.m; sourceTree = "<group>"; };
+		6D54E3441E65092500552EEE /* UserInfoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserInfoCell.xib; sourceTree = "<group>"; };
+		6D54E3471E650D4000552EEE /* HTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPClient.h; sourceTree = "<group>"; };
+		6D54E3481E650D4000552EEE /* HTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPClient.m; sourceTree = "<group>"; };
+		6D54E34B1E6558C100552EEE /* ArtWorkThumb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtWorkThumb.h; sourceTree = "<group>"; };
+		6D54E34C1E6558C100552EEE /* ArtWorkThumb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtWorkThumb.m; sourceTree = "<group>"; };
+		6D54E34D1E6558C100552EEE /* Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Data.h; sourceTree = "<group>"; };
+		6D54E34E1E6558C100552EEE /* Data.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Data.m; sourceTree = "<group>"; };
+		6D54E34F1E6558C100552EEE /* DataList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataList.h; sourceTree = "<group>"; };
+		6D54E3501E6558C100552EEE /* DataList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataList.m; sourceTree = "<group>"; };
+		6D54E3511E6558C100552EEE /* DataModels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModels.h; sourceTree = "<group>"; };
+		6D54E3521E6558C100552EEE /* ResponseUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponseUser.h; sourceTree = "<group>"; };
+		6D54E3531E6558C100552EEE /* ResponseUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResponseUser.m; sourceTree = "<group>"; };
+		6D54E3541E6558C100552EEE /* UserCountSummary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserCountSummary.h; sourceTree = "<group>"; };
+		6D54E3551E6558C100552EEE /* UserCountSummary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserCountSummary.m; sourceTree = "<group>"; };
+		6D54E3561E6558C100552EEE /* UserSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserSearch.h; sourceTree = "<group>"; };
+		6D54E3571E6558C100552EEE /* UserSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserSearch.m; sourceTree = "<group>"; };
 		6D9E0F6C1E64231400064CCA /* RealTimeSearching.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealTimeSearching.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D9E0F701E64231400064CCA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6D9E0F721E64231400064CCA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -70,6 +97,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6D54E34A1E6558A600552EEE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6D54E34B1E6558C100552EEE /* ArtWorkThumb.h */,
+				6D54E34C1E6558C100552EEE /* ArtWorkThumb.m */,
+				6D54E34D1E6558C100552EEE /* Data.h */,
+				6D54E34E1E6558C100552EEE /* Data.m */,
+				6D54E34F1E6558C100552EEE /* DataList.h */,
+				6D54E3501E6558C100552EEE /* DataList.m */,
+				6D54E3511E6558C100552EEE /* DataModels.h */,
+				6D54E3521E6558C100552EEE /* ResponseUser.h */,
+				6D54E3531E6558C100552EEE /* ResponseUser.m */,
+				6D54E3541E6558C100552EEE /* UserCountSummary.h */,
+				6D54E3551E6558C100552EEE /* UserCountSummary.m */,
+				6D54E3561E6558C100552EEE /* UserSearch.h */,
+				6D54E3571E6558C100552EEE /* UserSearch.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		6D9E0F631E64231400064CCA = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +140,9 @@
 		6D9E0F6E1E64231400064CCA /* RealTimeSearching */ = {
 			isa = PBXGroup;
 			children = (
+				6D54E34A1E6558A600552EEE /* Models */,
+				6D54E3471E650D4000552EEE /* HTTPClient.h */,
+				6D54E3481E650D4000552EEE /* HTTPClient.m */,
 				6D9E0F721E64231400064CCA /* AppDelegate.h */,
 				6D9E0F731E64231400064CCA /* AppDelegate.m */,
 				6D9E0F751E64231400064CCA /* ViewController.h */,
@@ -102,6 +152,9 @@
 				6D9E0F7D1E64231400064CCA /* LaunchScreen.storyboard */,
 				6D9E0F801E64231400064CCA /* Info.plist */,
 				6D9E0F6F1E64231400064CCA /* Supporting Files */,
+				6D54E3421E65092500552EEE /* UserInfoCell.h */,
+				6D54E3431E65092500552EEE /* UserInfoCell.m */,
+				6D54E3441E65092500552EEE /* UserInfoCell.xib */,
 			);
 			path = RealTimeSearching;
 			sourceTree = "<group>";
@@ -232,6 +285,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D54E3461E65092500552EEE /* UserInfoCell.xib in Resources */,
 				6D9E0F7F1E64231400064CCA /* LaunchScreen.storyboard in Resources */,
 				6D9E0F7C1E64231400064CCA /* Assets.xcassets in Resources */,
 				6D9E0F7A1E64231400064CCA /* Main.storyboard in Resources */,
@@ -345,9 +399,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D54E3451E65092500552EEE /* UserInfoCell.m in Sources */,
 				6D9E0F771E64231400064CCA /* ViewController.m in Sources */,
 				6D9E0F741E64231400064CCA /* AppDelegate.m in Sources */,
+				6D54E35D1E6558C100552EEE /* UserSearch.m in Sources */,
+				6D54E35B1E6558C100552EEE /* ResponseUser.m in Sources */,
+				6D54E35A1E6558C100552EEE /* DataList.m in Sources */,
+				6D54E3581E6558C100552EEE /* ArtWorkThumb.m in Sources */,
+				6D54E3591E6558C100552EEE /* Data.m in Sources */,
+				6D54E3491E650D4000552EEE /* HTTPClient.m in Sources */,
 				6D9E0F711E64231400064CCA /* main.m in Sources */,
+				6D54E35C1E6558C100552EEE /* UserCountSummary.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +546,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = A87J69XM38;
 				INFOPLIST_FILE = RealTimeSearching/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.smict.RealTimeSearching;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -497,6 +560,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = A87J69XM38;
 				INFOPLIST_FILE = RealTimeSearching/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.smict.RealTimeSearching;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -548,6 +612,7 @@
 				6D9E0F901E64231400064CCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6D9E0F911E64231400064CCA /* Build configuration list for PBXNativeTarget "RealTimeSearchingTests" */ = {
 			isa = XCConfigurationList;
@@ -556,6 +621,7 @@
 				6D9E0F931E64231400064CCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

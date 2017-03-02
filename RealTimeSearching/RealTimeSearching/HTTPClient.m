@@ -49,14 +49,18 @@
                                    parameters:(id)parameters success:(void (^)(id results))success
                                       failure:(void (^)(NSError *error))failure
 {
-
+    
+    // 현재 진행되고 있는 dataTask들을 가지고와 다른 request가 끝나기 전
+    // 다른 request가 들어왔을 때 전에 실행중이던 task들을  cancel시켜주어
+    // 사용자가 빠른 속도로 타이핑시에는 request가 실행되지 않게 함.
     NSArray *dataTasks = self.dataTasks;
     
     for (NSURLSessionDataTask *task in dataTasks) {
         [task cancel];
     }
     
-    
+    // AFHTTPSessionManager의 POST API는 NSURLSessionDataTask를 리턴한다.
+    // 이 AFHTTPSessionManager로 현재 진행되고 있는 task를 cancel할 수 있다.
     [self POST:urlString parameters:parameters progress:^(NSProgress * _Nonnull uploadProgress) {
         
         

@@ -8,6 +8,12 @@
 
 #import "HTTPClient.h"
 
+@interface HTTPClient ()
+
+@property(strong, nonatomic) NSMutableArray *requests;
+
+@end
+
 @implementation HTTPClient
 
 -(instancetype)initWithBaseURL
@@ -15,6 +21,7 @@
     if(self = [super initWithBaseURL:[NSURL URLWithString:@"https://apidev.fanbook.me"]])
     {
         self.requestSerializer = [AFJSONRequestSerializer serializer];
+        self.requests = [NSMutableArray array];
     }
     
     return self;
@@ -42,17 +49,24 @@
                                    parameters:(id)parameters success:(void (^)(id results))success
                                       failure:(void (^)(NSError *error))failure
 {
-    self.operationQueue.maxConcurrentOperationCount = 1;
-    
-    [self.operationQueue cancelAllOperations];
 
-    [self POST:urlString parameters:parameters progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+    NSArray *dataTasks = self.dataTasks;
+    
+    for (NSURLSessionDataTask *task in dataTasks) {
+        [task cancel];
+    }
+    
+    
+    [self POST:urlString parameters:parameters progress:^(NSProgress * _Nonnull uploadProgress) {
+        
+        
+    }success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         
         if(success)
             success(responseObject);
         
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-        
+
         if(failure)
             failure(error);
     }];

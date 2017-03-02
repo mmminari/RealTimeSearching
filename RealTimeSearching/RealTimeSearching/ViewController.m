@@ -85,7 +85,7 @@
         NSLog(@"success");
         
     } failure:^(NSError *error) {
-        NSLog(@"error :%@", error.description);
+        //NSLog(@"error :%@", error.description);
     }];
 }
 
@@ -156,6 +156,8 @@
         ResponseUser *user = self.userList[indexPath.row];
         
         [cell setUserNick:user.userNick];
+        
+        [cell setUserProfileWithUrlString:user.userPhoto];
         
     } @catch (NSException *exception) {
         

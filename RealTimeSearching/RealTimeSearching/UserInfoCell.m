@@ -7,6 +7,8 @@
 //
 
 #import "UserInfoCell.h"
+#import <SDWebImage/UIImageView+WebCache.h>
+
 
 @interface UserInfoCell ()
 @property (weak, nonatomic) IBOutlet UIImageView *ivUserProfile;
@@ -25,7 +27,7 @@
 
 - (void)setUserProfileWithUrlString:(NSString *)urlString
 {
-    
+    [self setImageView:self.ivUserProfile urlString:urlString placeholderImage:nil animation:YES];
 }
 
 - (void)setUserNick:(NSString *)userNick
@@ -33,6 +35,33 @@
     self.lbUserNick.text = userNick;
 }
 
+
+-(void)setImageView:(UIImageView *)imageView urlString:(NSString *)urlString placeholderImage:(UIImage *)image animation:(BOOL)ani
+{
+    NSURL *url = [NSURL URLWithString:urlString];
+    [imageView sd_setImageWithURL:url placeholderImage:image completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL)
+     {
+         if(cacheType == SDImageCacheTypeNone)
+         {
+             if(ani)
+             {
+                 
+                 [imageView.layer addAnimation:[self fadeOutAnimationForChangeImage] forKey:@"fadeOutAnimationForChangeImage"];
+             }
+             
+         }
+     }];
+}
+
+- (CATransition *)fadeOutAnimationForChangeImage
+{
+    CATransition *transition = [CATransition animation];
+    transition.duration = 1.0f;
+    transition.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
+    transition.type = kCATransitionFade;
+    
+    return transition;
+}
 
 
 @end

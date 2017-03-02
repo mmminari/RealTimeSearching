@@ -16,7 +16,6 @@
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 
 @property (strong, nonatomic) HTTPClient *httpClient;
-@property (strong, nonatomic) NSOperationQueue *queue;
 @property (strong, nonatomic) NSArray *userList;
 
 @end
@@ -30,7 +29,6 @@
     [self.tableView registerNib:[UINib nibWithNibName:@"UserInfoCell" bundle:nil] forCellReuseIdentifier:@"UserInfoCell"];
     
     self.httpClient = [[HTTPClient alloc]initWithBaseURL];
-    self.queue = [[NSOperationQueue alloc]init];
     self.userList = [NSArray array];
     
     [self reqLogin];
